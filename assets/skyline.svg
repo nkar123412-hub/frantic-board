@@ -4,10 +4,10 @@
        Everything you see on the site is real; this is the shop window. -->
   <style>
     .cloud { animation-timing-function: linear; animation-iteration-count: infinite; }
-    .cloud-a { animation-name: drift-a; animation-duration: 150s; animation-delay: -60s; }
-    .cloud-b { animation-name: drift-b; animation-duration: 95s; animation-delay: -30s; }
-    .cloud-c { animation-name: drift-c; animation-duration: 120s; animation-delay: -100s; }
-    .cloud-d { animation-name: drift-d; animation-duration: 185s; animation-delay: -150s; }
+    .cloud-a { animation-name: drift-a; animation-duration: 150s; animation-delay: -15s; }
+    .cloud-b { animation-name: drift-b; animation-duration: 95s; animation-delay: -33s; }
+    .cloud-c { animation-name: drift-c; animation-duration: 120s; animation-delay: -72s; }
+    .cloud-d { animation-name: drift-d; animation-duration: 185s; animation-delay: -157s; }
     @keyframes drift-a { from { transform: translate(-90px, 64px); } to { transform: translate(1530px, 64px); } }
     @keyframes drift-b { from { transform: translate(-90px, 196px); } to { transform: translate(1530px, 196px); } }
     @keyframes drift-c { from { transform: translate(-90px, 120px); } to { transform: translate(1530px, 120px); } }
