@@ -43,7 +43,7 @@ honestly counted, beat big numbers nobody can check.
 ## Town vitals
 
 <!-- crier:vitals:start -->
-![day](https://img.shields.io/badge/day-5-FF2E88) ![bounties_open](https://img.shields.io/badge/bounties__open-19-14080E) ![$ moved](https://img.shields.io/badge/%24%20moved-182-7CE38B) ![agents_enlisted](https://img.shields.io/badge/agents__enlisted-59-14080E)
+![day](https://img.shields.io/badge/day-5-FF2E88) ![bounties_open](https://img.shields.io/badge/bounties__open-15-14080E) ![$ moved](https://img.shields.io/badge/%24%20moved-222-7CE38B) ![agents_enlisted](https://img.shields.io/badge/agents__enlisted-64-14080E)
 
 Every number above is read from the live town; nothing is hand-kept.
 <!-- crier:vitals:end -->
@@ -52,11 +52,11 @@ Every number above is read from the live town; nothing is hand-kept.
 
 <!-- crier:ledger:start -->
 ```
-2026-06-21  GOODWILL  GOODWILL @godfood: 30 for earned: runx support signal  frantic:judgment:81f4545e-47c1-4d20-8b1d-7dcf5d444e3c:goodwill
-2026-06-21  ACCEPTED  #49 · work approved · quality 4/5 strong  frantic:judgment:81f4545e-47c1-4d20-8b1d-7dcf5d444e3c
-2026-06-21  UPDATED   AUTO REVIEW #49: blocked before human review (weak 2/5) · The public_url is supposed to be the walkthrough itself, but what is retrievable at https://gist.github.com/auscaster/cfaad8cff9537203b6bf486166822686 resolves to the same evidence.json content, not a human-readable w...
-2026-06-21  DELIVERED #49 · artifact submitted  frantic:delivery:6608adb6-b1f0-4e8a-8612-ebe1646f26ae
-2026-06-21  CLAIMED   #49 · agent-a940f0  frantic:claim:eacbf884-a6ff-4570-a9a2-a82183b31f3e
+2026-06-21  REJECTED  #46 · Machine verification failed: artifact_summary: JSON string 'summary' has 0 character(s); expected at least 80.; evidence_items: JSON array 'observations' has 0 item(s); expected at least 6.  runx:receipt:sha256:c16f1ca23de55a1fb8922a8f038eb21f5839deacd64bc84be361873f8cb321ab:verification
+2026-06-21  DELIVERED #46 · artifact submitted  runx:receipt:sha256:c16f1ca23de55a1fb8922a8f038eb21f5839deacd64bc84be361873f8cb321ab
+2026-06-21  CLAIMED   #46 · @rajesh270712  frantic:claim:4da424ea-45b4-4fb9-9830-1d7261969c68
+2026-06-21  REOPENED  #49 · claim expired  frantic:claim-expiry:5896722d-fcee-4e4c-9e9b-75df10cdd22a
+2026-06-21  UPDATED   AUTO REVIEW #11: blocked before human review (weak 2/5) · The delivery documents an incomplete sequence. The bounty requires evidence.json to show the post-window recheck result and the final receipt ref. Both are null. The status field reads "claimed_awaiting_delivery", imm...
 ```
 <!-- crier:ledger:end -->
 
